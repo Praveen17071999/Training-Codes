@@ -4,9 +4,9 @@
     margin:0%;
 }
 .wrapper{
-    background: url(TechnoBg2.webp);
+    background-color: white;
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
     background-attachment: fixed;
     display:flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 .navbar{
     height:60px;
     width:100%;
-    background: rgba(0, 0, 0, 0.4);
+    background-color:black;
     position:fixed;
 }
 
@@ -69,7 +69,7 @@
     flex-direction: column;
     border-radius: 5px;
 
-    background:rgba(230, 32, 32, 0.4);
+    
 }
 .intro_content h1{
     
@@ -116,7 +116,7 @@
 
 /*From here C webpage css starts*/
 .cpagecontent{
-    background:rgba(230, 32, 32, 0.4);
+    background-color: white;
     display:flex;
     flex-direction: column;
 }
@@ -128,12 +128,14 @@
 .indexcolumn{
     display:flex;
     flex-direction: row;
+    
 }
 
 .sidebar{
     display: block;
     padding:10px;
     list-style-type: none;
+    s
 }
 
 .sidebar li{
@@ -142,6 +144,7 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    background: rgba(0, 0, 0, 0.4);
     
 }
 
@@ -149,6 +152,7 @@
     color: crimson;
     text-decoration:none;
     transition:0.2s;
+    
 }
 
 
@@ -165,4 +169,13 @@
 }
 .subpoints{
     margin-left: 30%;
+}
+
+.samplecodes{
+    padding:10px;
+}
+.samplecodes pre{
+    background: rgba(0, 0, 0, 0.4);
+    padding:10px;
+    border-radius: 10px;
 }
