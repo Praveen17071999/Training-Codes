@@ -3,6 +3,8 @@
     padding:0%;
     margin:0%;
 }
+
+
 .wrapper{
     background-color: white;
     background-size: cover;
@@ -179,3 +181,120 @@
     padding:10px;
     border-radius: 10px;
 }
+
+.loginsignup{
+    margin-left: 87%;
+    margin-top: 8px;
+}
+
+
+.buttons{
+
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    padding:10px;
+    
+    
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginbody{
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+       "a b c"
+       "d e f"
+       "g h i";
+
+}
+
+.loginwrapper{
+    grid-area: e;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.loginwrapper h1{
+    padding:10px;
+}
+
+.textfield, .forgotpass, .signuplink {
+    padding: 10px;
+}
+
+input[type="submit"]{
+    width:50%;
+    height: 50px;
+    border:1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.signup_link{
+    margin:30px 0;
+    text-align:center;
+    font-size: 16px;
+    color: black;
+}
+
+.signup_link a{
+    text-decoration: none;
+    color: #2691d9;
+}
+
+.signup_link a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+.loginlogo{
+    width: 60px;
+    height:50px;
+    padding: 5px 10px;
+}
+
+.logintitle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:5px;
+    width:100%;
+    margin-left: 95%;
+    margin-top: 19%;
+}
+
+.logintitle h1{
+    margin-top: 10px;
+}
+
+.textfield input{
+    border-radius: 10px;
+    width: 80%;
+    height: 20px;
+}
+
